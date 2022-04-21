@@ -1,0 +1,34 @@
+git status                        To check the status of the repository.
+
+git init                          To initialize a file as a repository.
+
+git add filename                  To add a single file in the staging state.
+
+git add --a OR git add .          To add all the file present in the folder.
+
+git rm filename                   To remove a file from the folder and it will automatically put it in the staging area.
+
+git rm --cached filename          To stop tracking a file(it will delete the file for git but it won't delete it from the your computer)
+
+git commit -m "any message"       To commit the file from the staging state to the repository.
+
+git log                           To see the saved log in our repository.
+
+git commit -a -m "Message"        To skip the staging area and directly commit the file.(but this will only commit the tracked file and 
+                                  won't touch the untracked file)
+
+git mv oldfilename newfilename    To rename a file(basically this will move old file to new) and this will automatically put it in the staging area.
+
+git clone url                     To clone a whole repository from the url and modify it as per your wise.
+
+git diff                          To compare working directory with the staging directory.
+
+git diff --staged                 To compare previous commit with current staging area.
+
+touch .gitignore                  To create a file which will ignore any file mention in it.
+      FOR eg: *.log                  This will make the git to ignore all the log files from the folder.
+              dir/                   To ignore a whole directory and the data present in it by mention the name of the directory.
+              /dir/                  To ignore only the outer directory and store the data inside of the directory.
+
+rm -rf .git                       Will delete the whole .git file and the folder will no longer be a git repository.
+
