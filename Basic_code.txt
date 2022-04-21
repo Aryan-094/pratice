@@ -14,12 +14,12 @@ git commit -m "any message"       To commit the file from the staging state to t
 
 git log                           To see the saved log in our repository.
 
-git commit -a -m "Message"        To skip the staging area and directly commit the file.(but this will only commit the tracked file and 
-                                  won't touch the untracked file)
+git commit -a -m "Message"        To skip the staging area and directly commit the file.(but this will only commit the tracked file and won't touch the untracked file)
 
 git mv oldfilename newfilename    To rename a file(basically this will move old file to new) and this will automatically put it in the staging area.
 
-git clone url                     To clone a whole repository from the url and modify it as per your wise.
+git clone url                     To clone a whole repository from the url and modify it as per your wise. If you add a name after this then it will create a file in which all the info
+                                  would be stored.
 
 git diff                          To compare working directory with the staging directory.
 
